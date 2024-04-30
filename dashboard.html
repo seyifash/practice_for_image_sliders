@@ -1,0 +1,205 @@
+<!DOCTYPE  html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dashboard design</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/dash.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li>
+                    <a href="">
+                        <span class="icon"><i class='bx bxl-apple'></i></span>
+                        <span class="title">Brand Name</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><i class='bx bx-home'></i></span>
+                        <span class="title">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><i class='bx bx-edit-alt'></i></span>
+                        <span class="title">Create Test</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><i class='bx bx-group'></i></span>
+                        <span class="title">Students</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><i class='bx bx-store'></i></span>
+                        <span class="title">View All Created</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><i class='bx bx-objects-horizontal-left'></i></span>
+                        <span class="title">Activities</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><i class='bx bx-help-circle'></i></span>
+                        <span class="title">Help</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><i class='bx bx-cog'></i></span>
+                        <span class="title">Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        <span class="icon"><i class='bx bx-log-out'></i></span>
+                        <span class="title">Log out</span>
+                    </a>
+                </li>
+                <li class="mode">
+                    <div class="mode-inner">
+                        <div class="moon-sun">
+                            <i class='bx bx-moon icon moon'></i>
+                            <i class='bx bx-sun icon sun'></i>
+                        </div>
+                        <span class="mode-text text">Dark Mode</span>
+                        <div class="toggle-switch">
+                            <span class="switch"></span>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <!-- main -->
+        <div class="main">
+            <div class="topbar">
+                <div class="toggle"><i class='bx bx-menu'></i></div>
+                <div class="search">
+                    <label>
+                        <input type="text" placeholder="Search here">
+                        <i class='bx bx-search-alt-2'></i>
+                    </label>
+                </div>
+                <div class="user">
+                    <i class='bx bxs-user-circle'></i>
+                </div>
+            </div>
+
+            <div  class="CardBox">
+                <div class="Cards">
+                    <div>
+                        <div class="Numbers">1,024</div>
+                        <div class="CardName">Available Courses</div>
+                    </div>
+                    <div class="iconBx">
+                        <i class='bx bxs-graduation'></i>
+                    </div>
+                </div>
+                <div class="Cards">
+                    <div>
+                        <div class="Numbers">1,024</div>
+                        <div class="CardName">All Questions</div>
+                    </div>
+                    <div class="iconBx">
+                        <i class='bx bx-library'></i>
+                    </div>
+                </div>
+                <div class="Cards">
+                    <div>
+                        <div class="Numbers">1,024</div>
+                        <div class="CardName">Students</div>
+                    </div>
+                    <div class="iconBx">
+                        <i class='bx bx-male-female'></i>
+                    </div>
+                </div>
+                <div class="Cards">
+                    <div>
+                        <div class="Numbers">1,024</div>
+                        <div class="CardName">Trending</div>
+                    </div>
+                    <div class="iconBx">
+                        <i class='bx bx-code'></i>
+                    </div>
+                </div>
+            </div>
+            <!-- ==== all questions =====-->
+            <div class="Details">
+                <div class="recentQuestions">
+                    <div class="cardHeader">
+                        <h2>Recent Questions</h2>
+                        <a href="#" class="btnd">View All</a>
+                    </div>
+                    <div class="recent-container">
+                        <div class="recent">
+                            <span class="quest-num">Question 1</span>
+                            <span><strong>Python</strong>:Palindrome Check</span>
+                            <p>Write a Python function is_palindrome() to check if a given string is a palindrome or not. A palindrome is a word, phrase, number, or other sequence of characters that reads the same forward and backward.</p>
+                            <span><strong>Function Name</strong>: def is_palindrome(s):</span>
+                            <span><strong>Given Input</strong>: radar</span>
+                            <span><strong>Expected output</strong>: True</span>
+                        </div>
+                        <div  class="recent">
+                            <span class="quest-num">Question 2</span>
+                            <span><strong>C: </strong> Fibonacci Series</span>
+                            <p>Write a C program to generate the Fibonacci series up to a given number of terms and print them</p>
+                            <span><strong>Function Name:</strong> void fibonacci(int n) </span>
+                            <span><strong>Given Input: </strong>10</span>
+                            <span><strong>Expected Output</strong>0, 1, 1, 2, 3, 5, 8, 13, 21, 34,</span>
+                        </div>
+                        <div  class="recent">
+                            <span class="quest-num">Question 3</span>
+                            <span><strong>Database (MySQL): </strong>Employee Management System</span>
+                            <p>Design a MySQL database schema for an employee management system with tables for employees, departments, and roles. Include SQL queries to retrieve employee details, update employee information, and list employees by department.
+                                Schema:
+                                Employees Table: employee_id, name, department_id, role_id, salary
+                                Departments Table: department_id, department_name
+                                Roles Table: role_id, role_name</p>
+                            <span><strong>Function Name: </strong> void fibonacci(int n) </span>
+                            <span><strong>Given Input: </strong>10</span>
+                            <span><strong>Expected Output: </strong>0, 1, 1, 2, 3, 5, 8, 13, 21, 34,</span>
+                        </div>
+                        <div  class="recent">
+                            <span class="quest-num">Question 4</span>
+                            <span><strong>Python</strong> Prime Numbers</span>
+                            <p>Write a Python program to generate and print all prime numbers less than a given number.</p>
+                            <span><strong>Function Name: </strong>def is_prime(num):</span>
+                            <span><strong>Given Input: </strong>20</span>
+                            <span><strong>Expected Output: </strong>[2, 3, 5, 7, 11, 13, 17, 19]</span>
+                        </div>
+                        <div  class="recent">
+                            <span class="quest-num">Question 5</span>
+                            <span><strong>C</strong> Reverse a String</span>
+                            <p>Write a C program to reverse a given string without using any library function.</p>
+                            <span><strong>Function Name: </strong>void reverse_string(char *str)</span>
+                            <span><strong>Given Input: </strong>hello</span>
+                            <span><strong>Expected Output: </strong>olleh</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- javascript file -->
+    <script src="Js/main.js"></script>
+</body>
+</html>
+
+{id: 2, courseName: "C", questionTopic: "Fibonacci Series", question: "Write a C program to generate the Fibonacci series up to a given number of terms and print them",
+functionName: "void fibonacci(int n)", givenInput: "10", expectedOutput: "0, 1, 1, 2, 3, 5, 8, 13, 21, 34,"},
+{id: 3, courseName: "Database (MySQL):", questionTopic: "Employee Management System", question: "Design a MySQL database schema for an employee management system with tables for employees, departments, and roles. Include SQL queries to retrieve employee details, update employee information, and list employees by department.Schema:Employees Table: employee_id, name, department_id, role_id, salary Departments Table: department_id, department_name,Roles Table: role_id, role_name",
+functionName: "N/A", givenInput: "N/A", expectedOutput: "N/A"},
+{id: 4, courseName: "Python", questionTopic: "Prime Numbers", question: "Write a Python program to generate and print all prime numbers less than a given number.",  functionName: "def is_prime(num):", 
+givenInput: "20", expectedOutput: "[2, 3, 5, 7, 11, 13, 17, 19]"},
+{id: 5, courseName: "   C", questionTopic: "Reverse a String", question: "Write a C program to reverse a given string without using any library function.",
+functionName: "void reverse_string(char *str)", givenInput: "hello", expectedOutput: "olleh"},

@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Outfit:wght@100..900&family=Quicksand:wght@300..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Quicksand;
+}
+
+body {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(to left top, pink, rebeccapurple);  
+}
+
+.container .carousel {
+    display: grid;
+    grid-auto-flow: column;
+}
+.carousel .card {
+    height: 342px;
+    list-style: none;
+    background: #fff;
+    border-radius: 8px;
+}
+.card .img img {
+    width:140px;
+    height: 140px;
+    object-fit: cover;
+}
